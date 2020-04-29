@@ -15,13 +15,10 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#" tabindex="-1">Crew</a>
+                        <a class="nav-link " [routerLink]="['/crew']" routerLinkActive="router-link-active"
+                            tabindex="-1">Crew</a>
                     </li>
                 </ul>
-                <!-- <form class="d-flex">
-                    <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form> -->
 
                 <button class="btn btn-outline-success">Login</button>
 
@@ -177,10 +174,8 @@
 
     <!-- FOOTER -->
     <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>
+        <p class="d-flex justify-content-center">
             &copy; 2020 PIMP MY STRIDE CREW
-            &middot; <a href="http://pimpmystridecrew.co/">Privacy</a>
-            &middot; <a href="#">Terms</a></p>
+        </p>
     </footer>
 </main>
