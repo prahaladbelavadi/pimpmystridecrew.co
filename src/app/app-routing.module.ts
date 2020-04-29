@@ -6,7 +6,7 @@ import { CrewComponent } from './crew/crew.component';
 const routes: Routes = [
   { path: '', pathMatch: 'full', component: LandingPageComponent },
   { path: 'crew', component: CrewComponent },
-  { path: '**', component: LandingPageComponent },
+  { path: '**', redirectTo: '' },
 ];
 
 @NgModule({
