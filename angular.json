@@ -47,7 +47,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              {
+                "input": "./node_modules/bootstrap/dist/css/bootstrap.css"
+              }
             ],
             "scripts": []
           },
@@ -101,6 +104,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "frontend"
 }
