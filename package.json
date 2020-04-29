@@ -1,10 +1,11 @@
 {
-  "name": "frontend",
+  "name": "pimp-my-stride-crew",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --base-href 'https://prahaladbelavadi.github.io/pimpmystridecrew.co/'",
+    "deploy": "npm run build && ngh --dir dist/pimpmystridecrew",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
