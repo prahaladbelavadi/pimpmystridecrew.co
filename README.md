@@ -11,4 +11,4 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Deploying
 
-Run `npm run deploy` to build and deploy the project via githubpages. The build artifacts will be stored in the `dist/` directory. 
+Run `npm run docs` to build and deploy the project via githubpages.
