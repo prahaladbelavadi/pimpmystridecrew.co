@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "deploy": "ng build --prod --base-href 'https://prahaladbelavadi.github.io/pimpmystridecrew.co/'",
+    "direct_deploy":"ng deploy --base-href https://pimpmystridecrew.co",
     "docs": "npm run deploy && git add . && git commit -m 'generate build' && git push",
     "test": "ng test",
     "lint": "ng lint",
