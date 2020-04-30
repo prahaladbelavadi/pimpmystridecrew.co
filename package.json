@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "deploy": "ng build --prod --base-href 'https://prahaladbelavadi.github.io/pimpmystridecrew.co/' && ngh --dir dist/docs",
-    "docs": "ng build",
+    "docs": "ng build && git add . && git commit -m 'generate build' && git push",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
